@@ -8,46 +8,46 @@ Modelar e implementar **um banco relacional Oracle** da solução, com levantame
 
 ## 1. Levantamento e modelagem
 
-- [ ] Documentar **problema, público beneficiado, objetivo, atores, dados necessários, perguntas a responder e ODS** relacionados.
-- [ ] Escrever levantamento **específico da solução**, não genérico.
-- [ ] Criar **no mínimo 6 tabelas**, incluindo a associativa do N:N.
-- [ ] Criar **pelo menos dois relacionamentos 1:N**.
-- [ ] Criar **pelo menos um relacionamento N:N** com tabela associativa.
-- [ ] Definir **PK em todas as tabelas** e **FK em todos os relacionamentos**.
-- [ ] Demonstrar **modelo conceitual**, **modelo lógico** e **modelo relacional** no Oracle Data Modeler; são três artefatos distintos.
-- [ ] Evitar atributos multivalorados e grupos repetidos; usar identificadores sem acentos e sem espaços.
-- [ ] Criar **dicionário de dados**: tabela, coluna, tipo, tamanho, nulidade, chave, restrição e significado de cada coluna.
+- [x] Documentar **problema, público beneficiado, objetivo, atores, dados necessários, perguntas a responder e ODS** relacionados.
+- [x] Escrever levantamento **específico da solução**, não genérico.
+- [x] Criar **no mínimo 6 tabelas**, incluindo a associativa do N:N.
+- [x] Criar **pelo menos dois relacionamentos 1:N**.
+- [x] Criar **pelo menos um relacionamento N:N** com tabela associativa.
+- [x] Definir **PK em todas as tabelas** e **FK em todos os relacionamentos**.
+- [x] Demonstrar **modelo conceitual**, **modelo lógico** e **modelo relacional** no Oracle Data Modeler; são três artefatos distintos.
+- [x] Evitar atributos multivalorados e grupos repetidos; usar identificadores sem acentos e sem espaços.
+- [x] Criar **dicionário de dados**: tabela, coluna, tipo, tamanho, nulidade, chave, restrição e significado de cada coluna.
 
 ## 2. Implementação Oracle / SQL
 
-- [ ] Criar tabelas com `CREATE TABLE`, respeitando a dependência das chaves estrangeiras.
-- [ ] Incluir comentário em cada tabela.
-- [ ] Implementar restrições **PK, FK, NOT NULL, UNIQUE e CHECK** (pelo menos uma de cada das três últimas, coerente com regras da solução).
-- [ ] Popular **todas as tabelas**, com registros coerentes para demonstrar relacionamentos.
-- [ ] Preparar **ao menos 60 registros no total** (pág. 31), observando divergência nos slides sobre 50 registros.
-- [ ] Executar **pelo menos um `UPDATE ... WHERE ...`**.
-- [ ] Executar **pelo menos um `DELETE ... WHERE ...`**. Sem `WHERE`, o item não é aceito.
-- [ ] Capturar evidências de execução no Oracle (tabelas, INSERTs, consultas, UPDATE e DELETE).
+- [x] Criar tabelas com `CREATE TABLE`, respeitando a dependência das chaves estrangeiras.
+- [x] Incluir comentário em cada tabela.
+- [x] Implementar restrições **PK, FK, NOT NULL, UNIQUE e CHECK** (pelo menos uma de cada das três últimas, coerente com regras da solução).
+- [x] Popular **todas as tabelas**, com registros coerentes para demonstrar relacionamentos.
+- [x] Preparar **ao menos 60 registros no total** (pág. 31), observando divergência nos slides sobre 50 registros.
+- [x] Executar **pelo menos um `UPDATE ... WHERE ...`**.
+- [x] Executar **pelo menos um `DELETE ... WHERE ...`**. Sem `WHERE`, o item não é aceito.
+- [x] Capturar evidências de execução no Oracle (tabelas, INSERTs, consultas, UPDATE e DELETE).
 
 ## 3. Dez consultas SQL numeradas
 
 Cada consulta deve responder **uma pergunta útil para a solução CitizenTech**. O conjunto precisa apresentar:
 
-- [ ] **10 consultas numeradas**, com enunciado da pergunta que cada uma responde.
-- [ ] `WHERE`.
-- [ ] `ORDER BY`.
-- [ ] **Cálculo explícito no `SELECT`** (não basta usar apenas agregação).
-- [ ] `COUNT`.
-- [ ] `SUM`.
-- [ ] `AVG`.
-- [ ] `MAX`.
-- [ ] `MIN`.
-- [ ] `GROUP BY` nas consultas de agregação pertinentes.
-- [ ] Pelo menos **uma consulta com `HAVING`**.
-- [ ] Pelo menos **uma subconsulta** (`SUBSELECT`).
-- [ ] Pelo menos **uma `INNER JOIN`**.
-- [ ] Pelo menos **uma `LEFT JOIN`**.
-- [ ] Pelo menos **uma `RIGHT JOIN`**.
+- [x] **10 consultas numeradas**, com enunciado da pergunta que cada uma responde.
+- [x] `WHERE`.
+- [x] `ORDER BY`.
+- [x] **Cálculo explícito no `SELECT`** (não basta usar apenas agregação).
+- [x] `COUNT`.
+- [x] `SUM`.
+- [x] `AVG`.
+- [x] `MAX`.
+- [x] `MIN`.
+- [x] `GROUP BY` nas consultas de agregação pertinentes.
+- [x] Pelo menos **uma consulta com `HAVING`**.
+- [x] Pelo menos **uma subconsulta** (`SUBSELECT`).
+- [x] Pelo menos **uma `INNER JOIN`**.
+- [x] Pelo menos **uma `LEFT JOIN`**.
+- [x] Pelo menos **uma `RIGHT JOIN`**.
 
 > Uma consulta pode contemplar vários recursos; não é necessário criar uma consulta exclusiva para cada comando.
 
@@ -67,11 +67,11 @@ Cada consulta deve responder **uma pergunta útil para a solução CitizenTech**
 
 ## Entregáveis
 
-- [ ] **PDF** contendo levantamento, os três modelos do Data Modeler, dicionário de dados e enunciados das dez consultas.
-- [ ] **SQL** com a sequência solicitada: `CREATE TABLE` → `INSERTs` → 10 consultas numeradas → `UPDATE` → `DELETE`.
-- [ ] **Capturas de tela** de execução Oracle (preferencialmente incorporadas ao PDF, dada a divergência abaixo).
-- [ ] Capa do PDF com **nomes, RMs e turma**.
-- [ ] Compactar no formato exigido e abrir o arquivo para conferir integridade.
+- [x] **PDF** contendo levantamento, os três modelos do Data Modeler, dicionário de dados e enunciados das dez consultas.
+- [x] **SQL** com a sequência solicitada: `CREATE TABLE` → `INSERTs` → 10 consultas numeradas → `UPDATE` → `DELETE`.
+- [x] **Capturas de tela** de execução Oracle (preferencialmente incorporadas ao PDF, dada a divergência abaixo).
+- [x] Capa do PDF com **nomes, RMs e turma**.
+- [x] Compactar no formato exigido e abrir o arquivo para conferir integridade.
 
 ### Atenção: divergências do próprio edital
 
